@@ -1,0 +1,9 @@
+# Package definition for fresh-editor
+
+package_name: fresh-editor
+github_repo: sinelaw/fresh
+artifact_format: tar.gz
+description: "Terminal based IDE __DESCRIPTION__ text editor: easy, powerful and fast"
+license: GPL-2.0
+
+# Build for all Debian suites and all supported architectures.

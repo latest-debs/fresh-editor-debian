@@ -1,0 +1,27 @@
+{
+  "package": "fresh-editor",
+  "upstream_repo": "sinelaw/fresh",
+  "version": "v0.4.9",
+  "tag": "v0.4.9",
+  "published_at": "2026-08-11T21:39:31Z",
+  "license": "GPL-2.0",
+  "asset": "fresh-editor-aarch64-unknown-linux-musl.tar.gz",
+  "asset_size": 13556559,
+  "sha256": "ebe44b41ddb2a2f11a099fca37aff2e43a8b377a61daf690d04479330566e72a",
+  "expected_sha256": "ebe44b41ddb2a2f11a099fca37aff2e43a8b377a61daf690d04479330566e72a",
+  "checksum_source": "fresh-editor-aarch64-unknown-linux-musl.tar.gz.sha256",
+  "checksum_verified": true,
+  "assets": {
+    "fresh-editor-aarch64-unknown-linux-musl.tar.gz": {
+      "sha256": "ebe44b41ddb2a2f11a099fca37aff2e43a8b377a61daf690d04479330566e72a",
+      "size": 13556559
+    },
+    "fresh-editor-x86_64-unknown-linux-musl.tar.gz": {
+      "sha256": "f0091db361c33a1868168ad4578245ff379ddd260a59b0d7a32268268649a055",
+      "size": 13287060
+    }
+  },
+  "asset_count": 2,
+  "vetted_at": "2026-08-13T15:27:49Z",
+  "vetted_by": ""
+}

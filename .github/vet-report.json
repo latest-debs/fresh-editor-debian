@@ -1,0 +1,45 @@
+{
+  "gate": "pass",
+  "license": {
+    "declared": "GPL-2.0",
+    "detected": [
+      "GPL-2.0"
+    ],
+    "license_files": [
+      "//tmp/tmp.Ub1LLrE9xK/x/fresh-editor-aarch64-unknown-linux-musl/LICENSE"
+    ],
+    "matches": true,
+    "status": "pass",
+    "detail": "declared GPL-2.0 matches detected GPL-2.0"
+  },
+  "asset": {
+    "format": "tar.gz",
+    "size": 13556559,
+    "valid": true,
+    "is_html": false,
+    "binary": "fresh",
+    "elf_arch": "ARM aarch64",
+    "status": "pass",
+    "detail": "valid tar.gz archive containing 1 ELF executable(s); first: fresh (ARM aarch64); release covers: amd64 arm64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64"
+    ],
+    "missing": [
+      "armel",
+      "armhf",
+      "i386",
+      "ppc64el",
+      "s390x",
+      "riscv64",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "fresh-editor-x86_64-unknown-linux-musl.tar.gz",
+      "arm64": "fresh-editor-aarch64-unknown-linux-musl.tar.gz"
+    }
+  },
+  "vetted_at": "2026-08-13T15:27:49Z"
+}
