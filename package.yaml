@@ -3,7 +3,15 @@
 package_name: fresh-editor
 github_repo: sinelaw/fresh
 artifact_format: tar.gz
-description: "Terminal based IDE __DESCRIPTION__ text editor: easy, powerful and fast"
+description: "Terminal based IDE & text editor: easy, powerful and fast"
 license: GPL-2.0
 
-# Build for all Debian suites and all supported architectures.
+# Fresh publishes per-arch glibc builds as .tar.xz and static-musl builds as
+# both .tar.gz and .tar.xz. The .tar.gz musl builds are the only assets this
+# pipeline's formats cover, and being statically linked they run on every
+# Debian suite (including bookworm), so release patterns are pinned to them.
+architectures:
+  amd64:
+    release_pattern: "fresh-editor-x86_64-unknown-linux-musl.tar.gz"
+  arm64:
+    release_pattern: "fresh-editor-aarch64-unknown-linux-musl.tar.gz"
